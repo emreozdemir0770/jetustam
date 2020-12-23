@@ -3,7 +3,7 @@ $kr_search_adrress = FunctionsV3::getSessionAddress();
 
 $home_search_text=Yii::app()->functions->getOptionAdmin('home_search_text');
 if (empty($home_search_text)){
-	$home_search_text=Yii::t("default","Find restaurants near you");
+	$home_search_text=Yii::t("default","Hemen Siparişinizi Oluşturun");
 }
 
 $home_search_subtext=Yii::app()->functions->getOptionAdmin('home_search_subtext');
