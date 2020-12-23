@@ -1,5 +1,5 @@
 <?php
-$lang["Signup"]              ="";
+$lang["Signup"]              ="Kayıt Ol";
 $lang["Sign In"]             ="";
 $lang["Restaurant Signup"]   ="";
 $lang['Login Successful']    ='';
