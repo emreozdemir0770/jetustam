@@ -34,7 +34,7 @@ return array (
     'BRL' => 'R$',
     'CAD' => 'CA$',
     'CNY' => 'CN¥',
-    'EUR' => '€',
+    'TL' => '₺',
     'GBP' => '£',
     'HKD' => 'HK$',
     'ILS' => '₪',
