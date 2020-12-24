@@ -42,7 +42,7 @@ $lang ["Ayarlar kaydedildi."] = "";
 $lang ["Sıralama kaydedildi."] = "";
 $lang ["Mutfak"] = "";
 $lang ["Mesafe"] = "";
-$ dil ["mil"] = "";
+$lang ["mil"] = "";
 $lang ["Teslimat Tahmini"] = "";
 $lang ["Teslimat Mesafesi"] = "";
 $lang ["Teslimat Ücreti"] = "";
@@ -110,4 +110,4 @@ $lang ["Üzgünüz ama bilgilerinizi bulamıyoruz."] = "";
 $lang ["HATA: Eksik parametreler"] = "";
 $lang ["Kart eklendi."] = "";
 $lang ["HATA: tüccar bilgisi alınamıyor"] = "";
-$lang ["Lütfen kredi kartı seçin
+$lang ["Lütfen kredi kartı seçin"] = "";
