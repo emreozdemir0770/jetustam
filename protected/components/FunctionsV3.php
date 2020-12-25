@@ -1317,7 +1317,7 @@ class FunctionsV3
 		
 		$payment_accepted='';
 		if (array_key_exists('cod',(array)$new_payment_list)){			
-			$payment_accepted="<p class=\"cod-text\">".t("Cash on delivery available")."</p>";
+			$payment_accepted="<p class=\"cod-text\">".t("Nakit Ödeme")."</p>";
 		}
 		if (array_key_exists('ocr',(array)$new_payment_list)){
 			if(!empty($payment_accepted)){

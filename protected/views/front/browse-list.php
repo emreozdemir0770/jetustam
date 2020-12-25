@@ -85,7 +85,7 @@ if ( empty($val['latitude'])){
 		        
 		        <a href="<?php echo Yii::app()->createUrl("/menu-". trim($val['restaurant_slug']))?>" 
 		        class="orange-button rounded3 medium bottom10 inline-block">
-		        <?php echo t("View menu")?>
+		        <?php echo t("Sipariş Ver")?>
 		        </a>
 		                      
 		     </div> <!--col-->
