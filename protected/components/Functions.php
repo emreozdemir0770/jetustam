@@ -3168,7 +3168,7 @@ class Functions extends CApplicationComponent
 			          if (isset($val['ingredients'])){
 			          	if (!empty($val['ingredients'])){
 			          		if (is_array($val['ingredients']) && count($val['ingredients'])>=1){
-			          			$htm.="<p class=\"small ingredients-label\">".t("Ingredients").":</p>";
+			          			$htm.="<p class=\"small ingredients-label\">".t("Malzemeler").":</p>";
 			          		    foreach ($val['ingredients'] as $val_ingred) {
 			          		       $htm.="<p class=\"small\">".$val_ingred."</p>";
 			          		    }	

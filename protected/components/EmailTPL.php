@@ -125,7 +125,7 @@ HTML;
 					$ingredients='';
 					if (isset($item['ingredients'])){
 						if (is_array($item['ingredients']) && count($item['ingredients'])>=1){
-							$ingredients.="<p>".t("Ingredients")."</p>";
+							$ingredients.="<p>".t("Malzemeler")."</p>";
 							$ingredients.="<p>";
 							foreach ($item['ingredients'] as $ingredients_val) {
 								$ingredients.="- $ingredients_val<br/>";
