@@ -44,7 +44,7 @@
 <div style="height:20px;"></div>
 
 
-<h3 style="text-align:center;"><?php echo t("Booking Summary Report")?></h3>
+<h3 style="text-align:center;"><?php echo t("Rezervasyon Özet Raporu")?></h3>
 <?php if (isset($_GET['start_date']) || isset($_GET['end_date'])):?>
 <p style="text-align:center;"><?php echo prettyDate($_GET['start_date'])." ".t("and")." ".prettyDate($_GET['end_date'])?></p>
 <?php else :?>

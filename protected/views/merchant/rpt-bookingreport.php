@@ -35,7 +35,7 @@ $order_stats=Yii::app()->functions->orderStatusList(false);
 <div style="height:20px;"></div>
 
 
-<h3 style="text-align:center;"><?php echo t("Booking Summary Report")?></h3>
+<h3 style="text-align:center;"><?php echo t("Rezervasyon Özet Raporu")?></h3>
 <?php if (isset($_GET['start_date']) || isset($_GET['end_date'])):?>
 <p style="text-align:center;"><?php echo FormatDateTime($_GET['start_date'],false)." ".t("and")." ".FormatDateTime($_GET['end_date'],false)?></p>
 <?php else :?>

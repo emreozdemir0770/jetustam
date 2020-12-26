@@ -1046,7 +1046,7 @@ $params['RETURNURL']="http://".$_SERVER['HTTP_HOST'].Yii::app()->request->baseUr
 	
 	public function actionBookingReport()
 	{
-		$this->crumbsTitle=Yii::t("default","Booking Summary Report");		
+		$this->crumbsTitle=Yii::t("default","Rezervasyon Özet Raporu");
 		$this->render('rpt-bookingreport');
 	}
 	

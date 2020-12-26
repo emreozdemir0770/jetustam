@@ -1474,7 +1474,7 @@ class Functions extends CApplicationComponent
                    'url'=>array('admin/rptmerchantsalesummary')), 
                    
                    array('visible'=>$this->AA('rptbookingsummary'),'tag'=>'rptbookingsummary',
-                   'label'=>'<i class="fa fa-paypal"></i>'.Yii::t("default","Booking Summary Report"), 
+                   'label'=>'<i class="fa fa-paypal"></i>'.Yii::t("default","Rezervasyon Özet Raporu"),
                    'url'=>array('admin/rptbookingsummary')), 
                  )),
                  
