@@ -1040,7 +1040,7 @@ $params['RETURNURL']="http://".$_SERVER['HTTP_HOST'].Yii::app()->request->baseUr
 	
 	public function actionShippingRate()
 	{
-		$this->crumbsTitle=Yii::t("default","Delivery Charges Rates");		
+		$this->crumbsTitle=Yii::t("default","Teslimat Ücretleri Oranları");
 		$this->render('shippingrate');
 	}
 	

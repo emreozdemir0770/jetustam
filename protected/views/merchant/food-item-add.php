@@ -393,7 +393,7 @@ if (isset($_GET['id'])){
 	?>
 	<?php if (is_array($ingredients) && count($ingredients)>=1):?>
 	<div class="uk-form-row">
-	  <label class="uk-form-label uk-h3"><?php echo Yii::t("default","Ingredients")?></label>  
+	  <label class="uk-form-label uk-h3"><?php echo Yii::t("default","Malzemeler")?></label>
 	  <div class="clear"></div>
 	  <?php if (is_array($ingredients) && count($ingredients)>=1):?>
 	  <ul class="uk-list uk-list-striped">

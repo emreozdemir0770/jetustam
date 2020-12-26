@@ -255,7 +255,7 @@ if (!empty($merchant_specific_country)){
 
 <hr/>
 
-<h2><?php echo Yii::t("default","Merchant change order options")?></h2>
+<h2><?php echo Yii::t("default","Satıcı değiştirme sipariş seçenekleri")?></h2>
 
 <div class="uk-form-row">
   <label class="uk-form-label"><?php echo Yii::t("default","Disabled send sms/email after change order")?>?</label>  

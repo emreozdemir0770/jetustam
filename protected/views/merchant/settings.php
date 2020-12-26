@@ -182,10 +182,10 @@ $tips_list=$FunctionsK->tipsList(true);
 -->  
   
 <?php if ( getOptionA('mechant_sms_enabled')==""):?>
-<h2><?php echo t("Order Options")?></h2>
+<h2><?php echo t("Sipariş Ayarları")?></h2>
 
 <div class="uk-form-row">
-  <label class="uk-form-label"><?php echo Yii::t("default","Enabled Order SMS Verification")?></label>  
+  <label class="uk-form-label"><?php echo Yii::t("default","Müşteriye kaç dk önceden sms gönderelim?")?></label>
   <?php 
   echo CHtml::checkBox('order_verification',
    Yii::app()->functions->getOption('order_verification',$merchant_id)==2?true:false
@@ -209,9 +209,9 @@ $tips_list=$FunctionsK->tipsList(true);
 <?php endif;?>
 
   
-<h2><?php echo t("Food Item Options")?></h2>
+<h2><?php echo t("Yiyecek Öğesi Seçenekleri")?></h2>
 
-<h5><?php echo t("If item is not available do the following actions")?></h5>
+<h5><?php echo t("Öğe mevcut değilse aşağıdaki işlemleri yapın")?></h5>
 <div class="uk-form-row">
   <label class="uk-form-label"><?php echo Yii::t("default","Hide")?></label>  
   <?php 
@@ -225,7 +225,7 @@ $tips_list=$FunctionsK->tipsList(true);
 </div>
 
 <div class="uk-form-row">
-  <label class="uk-form-label"><?php echo Yii::t("default","Disabled")?></label>  
+  <label class="uk-form-label"><?php echo Yii::t("default","devre dışı")?></label>
   <?php 
   echo CHtml::radioButton('food_option_not_available',
    Yii::app()->functions->getOption('food_option_not_available',$merchant_id)==2?true:false
@@ -237,7 +237,7 @@ $tips_list=$FunctionsK->tipsList(true);
 </div>
 
 <div class="uk-form-row">
-  <label class="uk-form-label"><?php echo Yii::t("default","Disabled food gallery")?></label>  
+  <label class="uk-form-label"><?php echo Yii::t("default","Yiyecek galerisi devredışı")?></label>
   <?php 
   echo CHtml::checkBox('disabled_food_gallery',
    Yii::app()->functions->getOption('disabled_food_gallery',$merchant_id)==2?true:false
@@ -293,10 +293,10 @@ $tips_list=$FunctionsK->tipsList(true);
 <?php endif;?>
 <!--MENU OPTIONS SETTINGS FOR MERCHANT-->
 
-<h2><?php echo Yii::t("default","Merchant Open/Close")?></h2>
+<h2><?php echo Yii::t("default","Satışları Aç/Kapat")?></h2>
 
 <div class="uk-form-row">
-  <label class="uk-form-label"><?php echo Yii::t("default","Close Store")?>?</label>  
+  <label class="uk-form-label"><?php echo Yii::t("default","Satışları Kapat")?>?</label>
   <?php 
   echo CHtml::checkBox('merchant_close_store',
    Yii::app()->functions->getOption('merchant_close_store',$merchant_id)=="yes"?true:false
@@ -308,7 +308,7 @@ $tips_list=$FunctionsK->tipsList(true);
 </div>
 
 <div class="uk-form-row">
-  <label class="uk-form-label"><?php echo Yii::t("default","Show Merchant Current Time")?>?</label>  
+  <label class="uk-form-label"><?php echo Yii::t("default","Satıcının Geçerli Zamanını Göster")?>?</label>
   <?php 
   echo CHtml::checkBox('merchant_show_time',
    Yii::app()->functions->getOption('merchant_show_time',$merchant_id)=="yes"?true:false
@@ -358,7 +358,7 @@ echo CHtml::textField('merchant_extenal',$merchant_extenal,array(
 
 
 <div class="uk-form-row">
-  <label class="uk-form-label"><?php echo Yii::t("default","Make Delivery Time Required")?>?</label>
+  <label class="uk-form-label"><?php echo Yii::t("default","Teslim Süresini Gerekli Yaptınız mı?")?>?</label>
   <?php 
   echo CHtml::checkBox('merchant_required_delivery_time',
   Yii::app()->functions->getOption("merchant_required_delivery_time",$merchant_id)=="yes"?true:false
@@ -411,7 +411,7 @@ $paymentgateway=Yii::app()->functions->getMerchantListOfPaymentGateway();
 <h3><?php echo Yii::t("default","Minimum Order")?> <?php echo t("Delivery")?></h3>
 
 <div class="uk-form-row">
-  <label class="uk-form-label"><?php echo Yii::t("default","Minimum purchase amount.")?></label>
+  <label class="uk-form-label"><?php echo Yii::t("default","Minimum satın alma tutarı.")?></label>
   <?php 
   echo CHtml::textField('merchant_minimum_order',$merchant_minimum_order,array(
     'class'=>"numeric_only"
@@ -423,7 +423,7 @@ $paymentgateway=Yii::app()->functions->getMerchantListOfPaymentGateway();
 <h3><?php echo Yii::t("default","Maximum Order")?> <?php echo t("Delivery")?></h3>
 
 <div class="uk-form-row">
-  <label class="uk-form-label"><?php echo Yii::t("default","Maximum purchase amount")?></label>
+  <label class="uk-form-label"><?php echo Yii::t("default","Maximum satın alma tutarı.")?></label>
   <?php 
   echo CHtml::textField('merchant_maximum_order',
   $merchant_maximum_order
@@ -475,7 +475,7 @@ $paymentgateway=Yii::app()->functions->getMerchantListOfPaymentGateway();
 </div>
 
 <div class="uk-form-row">
-  <label class="uk-form-label"><?php echo Yii::t("default","Packaging Incremental")?>?</label>
+  <label class="uk-form-label"><?php echo Yii::t("default","Paket Ücrete Tabi mi ?")?>?</label>
   <?php 
   echo CHtml::checkBox('merchant_packaging_increment',
   Yii::app()->functions->getOption("merchant_packaging_increment",$merchant_id)==2?true:false
@@ -511,7 +511,7 @@ $paymentgateway=Yii::app()->functions->getMerchantListOfPaymentGateway();
 </div>
 
 <div class="uk-form-row">
-<label class="uk-form-label"><?php echo Yii::t("default","Do not apply tax to delivery charges")?></label>
+<label class="uk-form-label"><?php echo Yii::t("default","Teslim ücretine vergi uygulanmasın")?></label>
 <?php echo CHtml::checkBox('merchant_tax_charges',
 Yii::app()->functions->getOption("merchant_tax_charges",$merchant_id)==2?true:false
 ,array(
@@ -705,7 +705,7 @@ Yii::app()->functions->getOption("merchant_close_msg",$merchant_id)
 </div>
 
 <div class="uk-form-row">
-<label class="uk-form-label"><?php echo Yii::t("default","Holiday Close Message")?></label>
+<label class="uk-form-label"><?php echo Yii::t("default","Dükkan Kapanış Mesajınız")?></label>
 <?php 
 echo CHtml::textArea('merchant_close_msg_holiday',
 Yii::app()->functions->getOption("merchant_close_msg_holiday",$merchant_id)
