@@ -91,14 +91,14 @@ return array(
 	    	    
 	    'Smtpmail'=>array(
 	        'class'=>'application.extension.smtpmail.PHPMailer',
-	        'Host'=>"YOUR HOST",
-            'Username'=>'YOUR USERNAME',
-            'Password'=>'YOUR PASSWORD',
+	        'Host'=>"smtp.gmail.com",
+            'Username'=>'fiatlasakademi@gmail.com',
+            'Password'=>'2015508024_',
             'Mailer'=>'smtp',
             'Port'=>587, // change this port according to your mail server
             'SMTPAuth'=>true,   
             'ContentType'=>'UTF-8',
-            //'SMTPSecure'=>'tls'
+            'SMTPSecure'=>'tls'
 	    ), 
 	    
 	    'GoogleApis' => array(
