@@ -224,7 +224,7 @@ if ($data['two_flavors']==2){
   <div class="section-label">
     <a class="section-label-a">
       <span class="bold">
-      <?php echo t("Ingredients")?></span>
+      <?php echo t("Malzemeler")?></span>
       <b></b>
     </a>             
      <div class="row">

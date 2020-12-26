@@ -213,7 +213,7 @@ $tips_list=$FunctionsK->tipsList(true);
 
 <h5><?php echo t("Öğe mevcut değilse aşağıdaki işlemleri yapın")?></h5>
 <div class="uk-form-row">
-  <label class="uk-form-label"><?php echo Yii::t("default","Hide")?></label>  
+  <label class="uk-form-label"><?php echo Yii::t("default","Gizle")?></label>
   <?php 
   echo CHtml::radioButton('food_option_not_available',
    Yii::app()->functions->getOption('food_option_not_available',$merchant_id)==1?true:false

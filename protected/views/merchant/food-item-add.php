@@ -464,7 +464,7 @@ if (isset($_GET['id'])){
 	   'class'=>"icheck",
 	   'value'=>2
 	  ))?>	  	  	  
-	  <?php echo t("Non taxable")?>
+	  <?php echo t("Vergiye Tabi Değil")?>
 	  </li>
 	  </ul>	
 	</div>	
