@@ -9448,7 +9448,7 @@ if (!Yii::app()->functions->getMerchantOffers($merchant_id,$this->data['valid_fr
 	    				if (sendEmail($merchant_email,$from,$this->data['subject'],$tpl)){
 	    					$this->code=1;
 	    				    $this->msg=t("Email has been sent");
-	    				} else $this->msg=t("Failed sending email");
+	    				} else $this->msg=t("E-posta gönderilemedi");
 	    			} else $this->msg=t("Merchant has no email address provided");	    		
 	    		} else $this->msg=t("Merchant information not found");
 	    	} else $this->msg=t("Missing merchant id");
