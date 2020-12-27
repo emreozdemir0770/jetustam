@@ -72,7 +72,7 @@
                   
          <div class="col-md-3 border">
          <?php if ($theme_hide_footer_section2!=2):?>
-         <h3><?php echo t("Others")?></h3>
+         <h3><?php echo t("Diğerleri")?></h3>
          
            <?php if (is_array($others_menu) && count($others_menu)>=1):?>
            <?php foreach ($others_menu as $val):?>
@@ -89,7 +89,7 @@
          
          <?php if ($social_flag<>1):?>
          <div class="col-md-2 border">
-         <h3><?php echo t("Connect with us")?></h3>
+         <h3><?php echo t("Sosyal Ağlarımız")?></h3>
          
          <div class="mytable social-wrap">
            <?php if (!empty($google_page)):?>

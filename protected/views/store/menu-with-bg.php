@@ -317,7 +317,7 @@ Yii::app()->functions->getOptionAdmin('website_disbaled_auto_cart'));
         
         <?php if (Yii::app()->functions->getOption("merchant_show_time",$merchant_id)=="yes"):?>
         <p>
-        <span class="uk-text-bold"><?php echo Yii::t("default","Merchant Current Date/Time")?>:</span>         
+        <span class="uk-text-bold"><?php echo Yii::t("default","Katılma Tarihi")?>:</span>
         <?php echo Yii::app()->functions->translateDate(date("F d l h:i:s a"));?>  
         </p>                
         <?php endif;?>

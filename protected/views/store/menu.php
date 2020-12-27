@@ -356,7 +356,7 @@ Yii::app()->getBaseUrl(true).FunctionsV3::getMerchantLogo($merchant_id)
             <?php if ($data['service']==3):?>
             <p class="bold"><?php echo t("Distance Information")?></p>
             <?php else :?>
-	        <p class="bold"><?php echo t("Delivery Information")?></p>
+	        <p class="bold"><?php echo t("Teslimat Bilgileri")?></p>
 	        <?php endif;?>
 	        
 	        <p>

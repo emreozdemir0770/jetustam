@@ -31,7 +31,7 @@ echo CHtml::hiddenField('clien_long',$data['client']['long']);
        
         <?php if ( $enabled_search_map=="yes"):?>
         <a href="javascript:;" class="search-view-map green-button block center upper rounded">
-        <?php echo t("View by map")?>
+        <?php echo t("HARİTADAN BUL")?>
         </a>
         <?php endif;?>
         
@@ -41,7 +41,7 @@ echo CHtml::hiddenField('clien_long',$data['client']['long']);
             <span aria-hidden="true">&times;</span>
           </button>  
         
-           <p class="bold"><?php echo t("Filters")?></p>
+           <p class="bold"><?php echo t("Filteremeler")?></p>
            
            
            <!--FILTER MERCHANT NAME-->       

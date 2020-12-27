@@ -68,7 +68,7 @@ if ($merchant_info=Yii::app()->functions->getMerchant($s['kr_merchant_id'])){
         <p class="uk-text-bold"><?php echo $merchant_address;?></p>
         <?php else :?>
         
-        <h3><?php echo Yii::t("default","Delivery information")?></h3>
+        <h3><?php echo Yii::t("default","Teslimat Bilgileri")?></h3>
         
         <p>
         <?php echo ucwords($merchant_info['restaurant_name'])?> <?php echo Yii::t("default","Restaurant")?> 

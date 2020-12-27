@@ -208,7 +208,7 @@ Yii::app()->functions->getOptionAdmin("admin_currency_position"));
         
         <?php else :?>
         
-        <h3><?php echo Yii::t("default","Delivery information")?></h3>
+        <h3><?php echo Yii::t("default","Teslimat Bilgileri")?></h3>
         
         <p>
         <?php echo ucwords($merchant_info['restaurant_name'])?> <?php echo Yii::t("default","Restaurant")?> 

@@ -57,7 +57,7 @@ $this->renderPartial('/front/order-progress-bar',array(
 	           <a href="javascript:;">	             
 	             <span>
 	             <i class="ion-ios-arrow-thin-right"></i>
-	             <?php echo t("By Delivery")?>
+	             <?php echo t("Teslimat Tipi")?>
 	             </span>   
 	             <b></b>
 	           </a>
@@ -84,7 +84,7 @@ $this->renderPartial('/front/order-progress-bar',array(
 	           <a href="javascript:;">	             
 	             <span>
 	             <i class="ion-ios-arrow-thin-right"></i>
-	             <?php echo t("By Cuisines")?>
+	             <?php echo t("Mutfak Çeşitleri")?>
 	             </span>   
 	             <b></b>
 	           </a>
