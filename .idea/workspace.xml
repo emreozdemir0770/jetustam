@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b75fb89-d7ed-4930-ad63-fc0c1a59ffff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/config/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/front/merchant-hours.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/front/merchant-hours.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/store/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/store/menu.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +72,7 @@
       <workItem from="1608926547200" duration="933000" />
       <workItem from="1609005631155" duration="3281000" />
       <workItem from="1609101613784" duration="810000" />
+      <workItem from="1609102747771" duration="294000" />
     </task>
     <servers />
   </component>
