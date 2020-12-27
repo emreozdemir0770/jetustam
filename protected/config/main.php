@@ -71,10 +71,10 @@ return array(
 										
 	    'db'=>array(	        
 		    'class'            => 'CDbConnection' ,
-			'connectionString' => 'mysql:host=localhost;dbname=emreozd1_test',
+			'connectionString' => 'mysql:host=localhost;dbname=jetustam',
 			'emulatePrepare'   => true,
-			'username'         => 'emreozd1_wp810',
-			'password'         => 'W8NJ!5*sy@wm',
+			'username'         => 'root',
+			'password'         => 'root',
 			'charset'          => 'utf8',
 			'tablePrefix'      => 'mtt_',
 	    ),

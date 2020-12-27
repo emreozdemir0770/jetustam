@@ -152,7 +152,7 @@ Yii::app()->getBaseUrl(true).FunctionsV3::getMerchantLogo($merchant_id)
 		    
 		    <?php if ($theme_hours_tab==""):?>
 		    <li>
-		       <span><?php echo t("Opening Hours")?></span>
+		       <span><?php echo t("Açılış Saatleri")?></span>
 		       <i class="ion-clock"></i>
 		    </li>
 		    <?php endif;?>
