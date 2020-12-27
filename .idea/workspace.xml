@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b75fb89-d7ed-4930-ad63-fc0c1a59ffff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/components/ExternalServices.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/components/ExternalServices.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/bkup/search-results.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/bkup/search-results.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/layouts/front_bottom_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/layouts/front_bottom_footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/store/menu-with-bg.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/store/menu-with-bg.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/store/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/store/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/store/payment-option(2).php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/store/payment-option(2).php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protected/views/store/payment-option(3).php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/store/payment-option(3).php" afterDir="false" />
-    </list>
+    <list default="true" id="4b75fb89-d7ed-4930-ad63-fc0c1a59ffff" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +70,7 @@
       <workItem from="1608926547200" duration="933000" />
       <workItem from="1609005631155" duration="3281000" />
       <workItem from="1609101613784" duration="810000" />
-      <workItem from="1609102747771" duration="2352000" />
+      <workItem from="1609102747771" duration="2655000" />
     </task>
     <servers />
   </component>
@@ -115,11 +106,11 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="221" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1608677541393" />
-    <state x="418" y="176" width="606" height="548" key="find.popup" timestamp="1609106559065">
+    <state x="418" y="176" width="606" height="548" key="find.popup" timestamp="1609106897103">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="418" y="176" width="606" height="548" key="find.popup/0.23.1440.797/-1920.-157.1920.1057@0.23.1440.797" timestamp="1609006965663" />
-    <state x="418" y="176" width="606" height="548" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1609106559065" />
+    <state x="418" y="176" width="606" height="548" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1609106897103" />
     <state x="418" y="176" width="606" height="548" key="find.popup/0.23.1440.800@0.23.1440.800" timestamp="1609102162733" />
   </component>
 </project>
