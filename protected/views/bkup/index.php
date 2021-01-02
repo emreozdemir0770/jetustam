@@ -23,9 +23,9 @@ $city=Yii::app()->functions->getCityList();
         <div class="uk-grid" id="tabs">
 	        <div class="uk-width-small-1-3">
 	            <ul data-uk-tab="{connect:'#tab-left-content'}" class="uk-tab uk-tab-left">
-	                <li class="uk-active"><a href="#"><i class="fa fa-cutlery"></i> <?php echo Yii::t("default","Restaurants")?></a></li>
-	                <li class=""><a href="#"><i class="fa fa-bolt"></i> <?php echo Yii::t("default","Newest")?></a></li>
-	                <li class=""><a href="#"><i class="fa fa-star-o"></i> <?php echo Yii::t("default","Featured")?></a></li>	            
+	                <li class="uk-active"><a href="#"><i class="fa fa-cutlery"></i> <?php echo Yii::t("default","İşletmeler")?></a></li>
+	                <li class=""><a href="#"><i class="fa fa-bolt"></i> <?php echo Yii::t("default","Aramıza Yeni Katılanlar")?></a></li>
+	                <li class=""><a href="#"><i class="fa fa-star-o"></i> <?php echo Yii::t("default","Popüler")?></a></li>
 	
 	        </div>
 	        <div class="uk-width-medium-1-2">

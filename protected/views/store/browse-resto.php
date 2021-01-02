@@ -14,7 +14,7 @@ $this->renderPartial('/front/default-header',array(
 		  <li class="<?php echo $tabs==1?"active":''?> noclick"  >
 		    <a href="<?php echo Yii::app()->createUrl('/store/browse')?>">
 		    <i class="ion-coffee"></i>
-		     <span><?php echo t("Restaurant List")?></span>
+		     <span><?php echo t("İşletmeler")?></span>
 		    </a>
 		  </li>
 		  <li class="<?php echo $tabs==2?"active":''?> noclick">
@@ -32,7 +32,7 @@ $this->renderPartial('/front/default-header',array(
 		  <li class="full-maps nounderline">				  
 		    <a href="javascript:;" >
 		    <i class="ion-android-globe"></i>    
-		     <span><?php echo t("View Restaurant by map")?></span>	    
+		     <span><?php echo t("Bölgendeki işletmeleri bul")?></span>
 		  </li>
 		   </a>
       </ul>		    

@@ -65,28 +65,28 @@ if ( $home_search_mode=="address" || $home_search_mode=="") {
         <img src="<?php echo assetsURL()."/images/step1.png"?>">
       </div>
       <h3><?php echo t("Search")?></h3>
-      <p><?php echo t("Find all restaurants available near you")?></p>
+      <p><?php echo t("Bölgendeki en iyi işletmeleri bul")?></p>
    </div>
    <div class="col-md-3 col-sm-3 center">
       <div class="steps step2-icon">
          <img src="<?php echo assetsURL()."/images/step2.png"?>">
       </div>
-      <h3><?php echo t("Choose")?></h3>
-      <p><?php echo t("Browse hundreds of menus to find the food you like")?></p>
+      <h3><?php echo t("Seçim")?></h3>
+      <p><?php echo t("Dilediğin yemeği seç")?></p>
    </div>
    <div class="col-md-3 col-sm-3  center">
       <div class="steps step2-icon">
         <img src="<?php echo assetsURL()."/images/step3.png"?>">
       </div>
       <h3><?php echo t("Pay")?></h3>
-      <p><?php echo t("It's quick, secure and easy")?></p>
+      <p><?php echo t("İstediğin şekilde öde")?></p>
    </div>
    <div class="col-md-3 col-sm-3  center">
      <div class="steps step2-icon">
        <img src="<?php echo assetsURL()."/images/step4.png"?>">
      </div>
-      <h3><?php echo t("Enjoy")?></h3>
-      <p><?php echo t("Food is prepared & delivered to your door")?></p>
+      <h3><?php echo t("Teslimat")?></h3>
+      <p><?php echo t("İstediğin şekilde teslim edilsin.")?></p>
    </div>   
  </div>
 
@@ -170,9 +170,8 @@ if ( $home_search_mode=="address" || $home_search_mode=="") {
 
 <div class="col-md-9  nopad">
 
-  <h2><?php echo t("Browse by cuisine")?></h2>
-  <p class="sub-text center"><?php echo t("choose from your favorite cuisine")?></p>
-  
+  <h2><?php echo t("Mutfaklar türlerine göz atmak ister misin ?")?></h2>
+
   <div class="row">
     <?php $x=1;?>
     <?php foreach ($list as $val): ?>
