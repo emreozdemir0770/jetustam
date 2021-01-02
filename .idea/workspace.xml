@@ -22,6 +22,7 @@
     <list default="true" id="4b75fb89-d7ed-4930-ad63-fc0c1a59ffff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/protected/components/Widgets.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/components/Widgets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/admin/theme-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/admin/theme-settings.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <workItem from="1609005631155" duration="3281000" />
       <workItem from="1609101613784" duration="810000" />
       <workItem from="1609102747771" duration="3088000" />
-      <workItem from="1609545681187" duration="983000" />
+      <workItem from="1609545681187" duration="1286000" />
     </task>
     <servers />
   </component>
@@ -110,11 +111,11 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="221" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1608677541393" />
-    <state x="418" y="176" width="608" height="548" key="find.popup" timestamp="1609546350852">
+    <state x="418" y="176" width="608" height="548" key="find.popup" timestamp="1609546991641">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="418" y="176" width="606" height="548" key="find.popup/0.23.1440.797/-1920.-157.1920.1057@0.23.1440.797" timestamp="1609006965663" />
-    <state x="418" y="176" width="608" height="548" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1609546350852" />
+    <state x="418" y="176" width="608" height="548" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1609546991641" />
     <state x="418" y="176" width="606" height="548" key="find.popup/0.23.1440.800@0.23.1440.800" timestamp="1609102162733" />
   </component>
 </project>
