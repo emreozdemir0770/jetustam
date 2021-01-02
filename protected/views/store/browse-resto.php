@@ -13,7 +13,7 @@ $this->renderPartial('/front/default-header',array(
       <ul id="tabs">
 		  <li class="<?php echo $tabs==1?"active":''?> noclick"  >
 		    <a href="<?php echo Yii::app()->createUrl('/store/browse')?>">
-		    <i class="ion-coffee"></i>
+		    <ion-icon name="fast-food-outline"></ion-icon>
 		     <span><?php echo t("İşletmeler")?></span>
 		    </a>
 		  </li>

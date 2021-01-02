@@ -1,7 +1,7 @@
 <?php
 $this->renderPartial('/front/default-header',array(
-   'h1'=>t("Restaurant  by cuisine"),
-   'sub_text'=>t("choose from your favorite restaurant")
+   'h1'=>t("İşletmelere Gözatın"),
+   'sub_text'=>t("Favori işletmeniz hangisi ?")
 ));
 ?>
 
