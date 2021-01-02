@@ -70,7 +70,7 @@
       <workItem from="1608926547200" duration="933000" />
       <workItem from="1609005631155" duration="3281000" />
       <workItem from="1609101613784" duration="810000" />
-      <workItem from="1609102747771" duration="2655000" />
+      <workItem from="1609102747771" duration="3088000" />
     </task>
     <servers />
   </component>
@@ -106,11 +106,11 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="221" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1608677541393" />
-    <state x="418" y="176" width="606" height="548" key="find.popup" timestamp="1609106897103">
+    <state x="418" y="176" width="608" height="548" key="find.popup" timestamp="1609107223186">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="418" y="176" width="606" height="548" key="find.popup/0.23.1440.797/-1920.-157.1920.1057@0.23.1440.797" timestamp="1609006965663" />
-    <state x="418" y="176" width="606" height="548" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1609106897103" />
+    <state x="418" y="176" width="608" height="548" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1609107223186" />
     <state x="418" y="176" width="606" height="548" key="find.popup/0.23.1440.800@0.23.1440.800" timestamp="1609102162733" />
   </component>
 </project>
