@@ -7,10 +7,6 @@ if (empty($home_search_text)){
 }
 
 $home_search_subtext=Yii::app()->functions->getOptionAdmin('home_search_subtext');
-if (empty($home_search_subtext)){
-	$home_search_subtext=Yii::t("default","Order Delivery Food Online From Local Restaurants");
-}
-
 $home_search_mode=Yii::app()->functions->getOptionAdmin('home_search_mode');
 $placholder_search=Yii::t("default","Street Address,City,State");
 if ( $home_search_mode=="postcode" ){
