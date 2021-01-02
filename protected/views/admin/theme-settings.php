@@ -163,8 +163,8 @@ echo CHtml::checkBox('theme_search_foodname',getOptionA('theme_search_foodname')
 echo CHtml::dropDownList('theme_top_menu[]',(array)FunctionsV3::getTopMenuActivated(),array(
   'browse'=>t("Browse Restaurant"),
   'resto_signup'=>t("Restaurant Signup"),
-  'contact'=>t("Contact"),
-  'signup'=>t("Login & Signup")
+  'signup'=>t("Login & Signup"),
+  'contact'=>t("Contact")
 ),array(
   'class'=>"chosen uk-form-width-large",
   "multiple"=>"multiple"

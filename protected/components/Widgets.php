@@ -981,7 +981,7 @@ class Widgets extends CApplicationComponent
 			  <div id="tabs-2">
 			  
 			     <div class="inner">			     
-			        <h2><?php echo Yii::t("default","Find Restaurant by Name")?></h2>			        
+			        <h2><?php echo Yii::t("default","100+ Market arasından istediğinizi seçiniz")?></h2>
 			        <div class="search-input-wrap">			        
 			        <form class="forms-search" id="forms-search" action="<?php echo baseUrl()."/store/searchArea"?>">
 			        
@@ -1045,7 +1045,7 @@ class Widgets extends CApplicationComponent
 			  
 			  <div id="tabs-5">
 			     <div class="inner">	
-			        <h2><?php echo Yii::t("default","Find Restaurant by Food")?></h2>
+			        <h2><?php echo Yii::t("default","10000+ ürün arasından dilediğinizi seçin")?></h2>
 			        
 			        <div class="search-input-wrap">			        
 			        <form class="forms-search" id="forms-search" action="<?php echo baseUrl()."/store/searchArea"?>">
